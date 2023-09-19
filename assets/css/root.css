@@ -17,6 +17,7 @@
     /* color */
     --clr-white: #FFF;
     --clr-black: #040404;
+    --clr-gray: #4d4d4d;
     --clr-red: #C2190E;
  
 }
@@ -56,6 +57,9 @@
 
 .clr-black {
     color: var(--clr-black);
+}
+.clr-gray {
+    color: var(--clr-gray);
 }
 .clr-red {
     color: var(--clr-red);
