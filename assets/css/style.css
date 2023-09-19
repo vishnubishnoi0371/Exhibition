@@ -25,8 +25,8 @@
     border: 2px solid transparent;
 }
 
-.gap-15 {
-    gap: 15px;
+.nav-gap {
+    gap: 8px;
 }
 
 .gap-12 {
@@ -176,10 +176,16 @@ nav ul li a:hover::before {
     max-width: 280px;
 }
 
-
 @media (min-width:575.8px) {
     .w_100 {
         width: 80%;
+    }
+}
+
+@media (min-width:1250px) {
+
+    .nav-gap {
+        gap: 15px;
     }
 }
 

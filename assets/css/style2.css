@@ -1,68 +1,4 @@
 @import url(./root.css);
-:root {
-    /* font-size */
-    --fs-sm: 14px;
-    --fs-md: 15px;
-    --fs-lg: 14px;
-
-
-    /* font-weight */
-    --fw-sm: 400;
-    --fw-md: 600;
-
-
-    /* font-family */
-    --ff-1: 'Poppins', sans-serif;
-
-    /* color */
-    --clr-white: #FFF;
-    --clr-black: #040404;
-    --clr-red: #C2190E;
-
-}
-
-/* size */
-.fs-sm {
-    font-size: var(--fs-sm);
-}
-
-.fs-md {
-    font-size: var(--fs-md);
-}
-
-.fs-lg {
-    font-size: var(--fs-lg);
-}
-
-
-
-/* weight */
-.fw-sm {
-    font-weight: var(--fw-sm);
-}
-
-.fw-md {
-    font-weight: var(--fw-md);
-}
-
-/* family */
-.ff-1 {
-    font-family: var(--ff-1);
-}
-
-
-/* color */
-.clr-white {
-    color: var(--clr-white);
-}
-
-.clr-black {
-    color: var(--clr-black);
-}
-
-.clr-red {
-    color: var(--clr-red);
-}
 
 * {
     box-sizing: border-box;
@@ -74,6 +10,10 @@
 
 .font-style-normal {
     font-style: normal;
+}
+
+.main-para {
+    max-width: 1146px;
 }
 
 .main-my {
