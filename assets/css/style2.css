@@ -16,6 +16,10 @@
     max-width: 1146px;
 }
 
+.flow-hidden {
+    overflow: hidden;
+}
+
 .main-my {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -32,12 +36,19 @@
     grid-gap: 12px;
 }
 
+.grid-hv {
+    transition: all 300ms linear;
+}
+
+.grid-hv:hover {
+    transform: scale(105%);
+}
 
 .gallery-image {
-    width: 100%;
-    height: 100%;
     border-radius: 16px;
+    overflow: hidden;
 }
+
 
 .grid-item1 {
     grid-column: 1/9;
