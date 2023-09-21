@@ -8,36 +8,45 @@
   <link rel="icon" href="./assets/images/header-img.png">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/style2.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
+
 <body class="flow">
   <!-- header -->
   <header>
-    <nav class="container">
+    <nav class="container ">
       <div class="d-flex align-items-center justify-content-between py-3">
-       
-          <img class="w-sm-25" src="./assets/images/nav-img-1.png" alt="nav-logo">
-        
+
+        <img class="w-sm-25" src="./assets/images/nav-img-1.png" alt="nav-logo">
+
         <div class="d-flex align-items-center justify-content-center gap-2">
 
-          <label id="menuIcon" onclick="responsive()">
+          <label id="menuIcon">
             <span class="cross-4"></span>
             <span class="cross-5"></span>
             <span class="cross-6"></span>
           </label>
           <ul class="nav-flip d-flex align-items-center nav-gap mb-0 pl-0 ml-0 px-0" Id="nav">
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Home</a></li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Mission</a></li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Training</a></li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none " onclick="responsive()">Village history</a>
+            <li><a href="#Home" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none home">Home</a>
             </li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Forum</a></li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Exhibition</a></li>
-            <li><a href="#" class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none" onclick="responsive()">Conversationt</a></li>
-            <li><a href="#" class="fs-md fw-md ff-1 clr-white nav-btn d-block d-xl-none text-decoration-none">Sign
+            <li><a href="#Mission"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none mission">Mission</a></li>
+            <li><a href="#Training"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none training">Training</a></li>
+            <li><a href="#Training"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none  training1">Village history</a>
+            </li>
+            <li><a href="#Footer"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none footer">Forum</a></li>
+            <li><a href="#Footer"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none footer1">Exhibition</a></li>
+            <li><a href="#Footer"
+                class="fs-lg fw-sm ff-1 clr-gray nav-click text-decoration-none footer2">Conversationt</a></li>
+            <li><a href="" class="fs-md fw-md ff-1 clr-white nav-btn d-block d-xl-none text-decoration-none">Sign
                 In</a></li>
-            <li><a href="#" class="fs-md fw-md ff-1 clr-white nav-btn d-block d-xl-none text-decoration-none">Donate</a>
+            <li><a href="" class="fs-md fw-md ff-1 clr-white nav-btn d-block d-xl-none text-decoration-none">Donate</a>
             </li>
           </ul>
           <div class="gap-2 d-flex align-items-center">
@@ -47,14 +56,15 @@
         </div>
       </div>
     </nav>
-    <div>
+    <div id="Home">
       <img class="w-100" src="./assets/images/header-img.png" alt="header-img">
     </div>
   </header>
   <!-- main -->
-  <main>
+  <main id="Mission">
     <div class="container">
-      <p class="clr-black text-center ff-1 fs-lg fw-md font-style-normal line-height-180 main-my main-para mx-auto">The Eastern Zone
+      <p class="clr-black text-center ff-1 fs-lg fw-md font-style-normal line-height-180 main-my main-para mx-auto">The
+        Eastern Zone
         Documentation Center provides the public with a variety of Khmer Rouge sources in the Eastern Zone,
         many of which are documented and photographed. By So Phim, Secretary of the Eastern Zone of the
         Communist Party of
@@ -66,50 +76,52 @@
         Center with
         Computers for Research It is also open to the general public.</p>
     </div>
-    <div class="grid-container container grid-mb">
-      <figure class="grid-item1 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img1.png" alt="meeting-room">
+    <div id="Training" class="grid-container container grid-mb">
+      <figure class="grid-item1 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img1.png" alt="meeting-room">
       </figure>
-      <figure class="grid-item2 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img2.png"
-          alt="people-doing-sitting-job"></figure>
-      <figure class="grid-item3 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img3.png"
-          alt="people-doing-construction-work"></figure>
-      <figure class="grid-item4 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img4.png" alt="meeting-room">
+      <figure class="grid-item2 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img2.png" alt="people-doing-sitting-job"></figure>
+      <figure class="grid-item3 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img3.png" alt="people-doing-construction-work"></figure>
+      <figure class="grid-item4 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img4.png" alt="meeting-room">
       </figure>
-      <figure class="grid-item5 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img5.png"
-          alt="group-photo-armed-men"></figure>
-      <figure class="grid-item6 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img6.png"
-          alt="room-width-one-table-and-one-chair"></figure>
-      <figure class="grid-item7 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img7.png"
-          alt="board-with-photos-pinned"></figure>
-      <figure class="grid-item8 gallery-image mb-0"><img class="w-100 h-100 grid-hv img_cover" src="./assets/images/main-img8.png" alt="dinning-table">
+      <figure class="grid-item5 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img5.png" alt="group-photo-armed-men"></figure>
+      <figure class="grid-item6 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img6.png" alt="room-width-one-table-and-one-chair"></figure>
+      <figure class="grid-item7 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img7.png" alt="board-with-photos-pinned"></figure>
+      <figure class="grid-item8 gallery-image mb-0"><img class="w-100 h-100 grid-hv object-fit-md-cover"
+          src="./assets/images/main-img8.png" alt="dinning-table">
       </figure>
     </div>
   </main>
-<!-- footer -->
-  <footer class="bg-black">
+  <!-- footer -->
+  <footer id="Footer" class="bg-black">
     <div class="container">
       <div class="row  justify-content-lg-between justify-content-center pt-40 pb-60 pb-sm-20">
         <div class="col-lg-6 col-12 ">
           <div> <img class=" w_100" src="./assets/images/footer-img-1.png" alt="footer-img-1"></div>
         </div>
         <div class="col-lg-4 col-12">
-          <p class="fs-lg fw-sm ff-1 clr-white ftr-para-1 mb-0 pb-2 pt-sm-10"># 66, Street 274, Sihanouk Blvd, Sangkat
+          <p class="fs-lg fw-sm ff-1 clr-white ftr-para-1 mb-0 pb-2 pt-sm-10"><a href="https://www.google.com/maps/search/Street274,SihanoukBlvd,SangkatTonleBassac,KhanChamkarmon,PhnomPenh./@11.5492784,104.8684709,13z/data=!3m1!4b1?entry=ttu" class="text-decoration-none clr-white" target="_blank"># 66, Street 274, Sihanouk Blvd, Sangkat
             Tonle Bassac, Khan
-            Chamkarmon, Phnom Penh.</p>
+            Chamkarmon, Phnom Penh.</a> </p>
           <div class="d-flex align-items-center gap-2">
             <img src="./assets/images/ftr-icon-1.png" alt="icon-1">
-            <a href="#"
-              class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">No. 012 90 55 95/023 21 18 75 </a>
+            <a href="tel:012-90-55-95/023-21-18-75" class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">No.012-90-55-95/023-21-18-75</a>
           </div>
           <div class="d-flex align-items-center gap-2">
             <img src="./assets/images/ftr-icon-2.png" alt="icon-1">
-            <a href="#"
-              class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">Email: dccam@online.com.kh
+            <a href="mailto:dccam@online.com.kh" class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">Email: dccam@online.com.kh
             </a>
           </div>
           <div class="d-flex align-items-center gap-2">
             <img src="./assets/images/ftr-icon-3.png" alt="icon-1">
-            <a href="#" class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">Website: www.dccam.org</a>
+            <a href="https://www.dccam.org/" target="_blank"
+              class="fs-sm fw-sm ff-1 clr-white ftr-para-2 text-decoration-none">Website: www.dccam.org</a>
           </div>
         </div>
       </div>
