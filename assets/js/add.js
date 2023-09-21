@@ -73,9 +73,5 @@ footer2.addEventListener("click",function(){
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
     cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3");
-<<<<<<< HEAD
-});
-=======
-})
->>>>>>> d4bf7f914a72d8745aa874d9d5af16a97ef8e0d0
+    cross6.classList.toggle("cross-3");}
+)
